@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * An {@link IntentService} subclass for handling asynchronous task requests in
@@ -29,8 +31,8 @@ public class DefaultCalculatorService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         try {
 
-            ApplicationInfo info = getPackageManager()
-                    .getApplicationInfo("com.android.calculator2",0);
+//            ApplicationInfo info = getPackageManager()
+//                    .getApplicationInfo("com.android.calculator2",0);
 
             ArrayList<HashMap<String, Object>> Items = new ArrayList<HashMap<String, Object>>();
             //PackageManager pm;
@@ -54,9 +56,9 @@ public class DefaultCalculatorService extends IntentService {
 
             }
         }
-        catch(PackageManager.NameNotFoundException e)
+        catch(Exception e)
         {
-
+            Log.i("Calculator", "reason why it not viewing"+e.getMessage().toString());
         }
     }
 }

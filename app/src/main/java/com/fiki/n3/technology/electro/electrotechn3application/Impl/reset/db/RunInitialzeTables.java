@@ -2,19 +2,19 @@ package com.fiki.n3.technology.electro.electrotechn3application.Impl.reset.db;
 
 import android.content.Context;
 
-import com.fiki.roman.andoirdmathlab.repository.Impl.ContactDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.EquationDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.LoginDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.MachineEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.PronyBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RoleDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RopeBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.StaffDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.SwineburneDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TorqueDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TutorialDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.UserDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.reset.db.init.BackEmfInit;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.ContactDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.EquationDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.LoginDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.MachineEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.PronyBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RoleDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RopeBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.StaffDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.SwineburneDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TorqueDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TutorialDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.UserDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.reset.db.init.BackEmfInit;
 
 /**
  * Created by Roman on 2016/06/15.

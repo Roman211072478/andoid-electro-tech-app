@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.ResultReceiver;
 
-import com.fiki.roman.andoirdmathlab.dto.BackEmfDTO;
-import com.fiki.roman.andoirdmathlab.dto.ContextDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.factories.chain.factories.back.emf.BackEmfCUDChainFactory;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.BackEmfDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ContextDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.factories.chain.factories.back.emf.BackEmfCUDChainFactory;
+
 
 /**
  * Created by Roman on 2016/05/01.
@@ -36,7 +37,7 @@ public class BackEmfCUDService extends IntentService {
 
     private ResultDTO resultDTO;
     private Bundle bundle;
-    private  BackEmfDTO backEmfDTO;
+    private BackEmfDTO backEmfDTO;
     private final IBinder localBinder = new ActivateServiceLocalBinder();
     private ContextDTO contextDTO ;
 

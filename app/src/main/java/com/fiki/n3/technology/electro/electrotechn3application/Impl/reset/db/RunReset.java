@@ -2,32 +2,32 @@ package com.fiki.n3.technology.electro.electrotechn3application.Impl.reset.db;
 
 import android.content.Context;
 
-import com.fiki.roman.andoirdmathlab.repository.Impl.BackEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.ContactDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.EquationDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.BackEmfDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.ContactDetailsDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.EquationDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.LoginDetailsDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.MachineEmfDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.PronyBreakDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.RoleDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.RopeBreakDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.StaffDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.SwineburneDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.TorqueDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.TutorialDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.UserDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.LoginDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.MachineEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.PronyBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RoleDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RopeBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.StaffDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.SwineburneDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TorqueDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TutorialDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.UserDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.BackEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.ContactDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.EquationDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.BackEmfDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.ContactDetailsDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.EquationDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.LoginDetailsDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.MachineEmfDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.PronyBreakDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.RoleDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.RopeBreakDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.StaffDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.SwineburneDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.TorqueDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.TutorialDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.UserDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.LoginDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.MachineEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.PronyBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RoleDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RopeBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.StaffDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.SwineburneDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TorqueDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TutorialDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.UserDAO;
 
 /**
  * Created by Roman on 2016/06/15.

@@ -11,8 +11,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.fiki.math.lab.mathlab.domain.model.Equation;
-import com.fiki.roman.andoirdmathlab.repository.Impl.EquationDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.EquationAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.EquationDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.EquationAdapter;
 
 import java.util.HashMap;
 

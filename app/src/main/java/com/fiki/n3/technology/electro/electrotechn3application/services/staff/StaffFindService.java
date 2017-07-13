@@ -4,11 +4,11 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.fiki.roman.andoirdmathlab.dto.ContextDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.dto.StaffDTO;
-import com.fiki.roman.andoirdmathlab.factories.chain.factories.Staff.StaffFindChainFactory;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ContextDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.StaffDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.factories.chain.factories.Staff.StaffFindChainFactory;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
 
 import java.util.HashMap;
 

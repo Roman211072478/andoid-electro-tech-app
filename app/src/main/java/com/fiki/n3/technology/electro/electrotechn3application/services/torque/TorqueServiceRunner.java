@@ -3,8 +3,8 @@ package com.fiki.n3.technology.electro.electrotechn3application.services.torque;
 import android.content.Context;
 import android.content.Intent;
 
-import com.fiki.roman.andoirdmathlab.dto.TorqueDTO;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TorqueDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
 
 /**
  * Created by Roman on 2016/05/26.
@@ -17,7 +17,7 @@ public class TorqueServiceRunner {
         this.ctx = ctx;
     }
 
-    private void findService(TorqueDTO dto, ServiceResultReceiver receiver,String request)
+    private void findService(TorqueDTO dto, ServiceResultReceiver receiver, String request)
     {
         Intent service = new Intent(ctx, TorqueFindService.class);
 

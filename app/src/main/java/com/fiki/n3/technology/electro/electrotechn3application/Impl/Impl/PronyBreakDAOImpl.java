@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.PronyBreakEfficiency;
 import com.fiki.math.lab.mathlab.factories.Impl.ProneBreakEfficiencyFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.ProneBreakEfficiencyFactory;
-import com.fiki.roman.andoirdmathlab.repository.Impl.PronyBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.PronyBreakAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.PronyBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.PronyBreakAdapter;
 
 import java.util.HashMap;
 

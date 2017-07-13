@@ -8,9 +8,9 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.MachineEmf;
 import com.fiki.math.lab.mathlab.factories.Impl.MachineEmfFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.MachineEmfFactory;
-import com.fiki.roman.andoirdmathlab.dto.MachineEmfDTO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.MachineEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.MachineEmfAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.MachineEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.MachineEmfAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.MachineEmfDTO;
 
 import java.util.HashMap;
 

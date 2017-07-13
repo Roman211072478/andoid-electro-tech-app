@@ -46,16 +46,16 @@ public class MainActivity extends Activity implements ServiceResultReceiver.Rece
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myReceiver = new ServiceResultReceiver(new Handler());
-
-        myReceiver.setReceiver(this);
-
-        bCreate = (Button)findViewById(R.id.btnCreate);
-        bView = (Button)findViewById(R.id.btnView);
-        backEmfExercise = (Button)findViewById(R.id.btnBackEmfTransportToLanding);
-        initCreateBtn();
-        initViewBtn();
-        initBackEmfTransporter();
+//        myReceiver = new ServiceResultReceiver(new Handler());
+//
+//        myReceiver.setReceiver(this);
+//
+//        bCreate = (Button)findViewById(R.id.btnCreate);
+//        bView = (Button)findViewById(R.id.btnView);
+//        backEmfExercise = (Button)findViewById(R.id.btnBackEmfTransportToLanding);
+//        initCreateBtn();
+//        initViewBtn();
+//        initBackEmfTransporter();
     }
     private void initCreateBtn()
     {
@@ -176,8 +176,8 @@ public class MainActivity extends Activity implements ServiceResultReceiver.Rece
             @Override
             public void onClick(View v) {
 
-                Intent in = new Intent(MainActivity.this, BackEmfExerciseLayout.class);
-                startActivity(in);
+//                Intent in = new Intent(MainActivity.this, BackEmfExerciseLayout.class);
+//                startActivity(in);
             }
         });
     }

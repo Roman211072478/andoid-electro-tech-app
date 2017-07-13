@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.fiki.n3.technology.electro.electrotechn3application.activities.administration.prony.PronyBrakeCRUDActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Prony Brake CRUD"
+        android:id="@+id/textView81"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="create"
+        android:id="@+id/create_prony_brake_crud_menu_activity"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="update  / delete"
+        android:id="@+id/edit_prony_brake_crud_menu_activity"
+
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

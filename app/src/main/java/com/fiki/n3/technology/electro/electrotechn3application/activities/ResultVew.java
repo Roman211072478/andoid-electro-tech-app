@@ -1,4 +1,4 @@
-package com.fiki.n3.technology.electro.electrotechn3application;
+package com.fiki.n3.technology.electro.electrotechn3application.activities;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -15,12 +15,14 @@ import android.widget.TextView;
 import com.fiki.math.lab.mathlab.domain.model.BackEmf;
 import com.fiki.math.lab.mathlab.factories.BackEmfFactory;
 import com.fiki.math.lab.mathlab.factories.Impl.BackEmfFactoryImpl;
-import com.fiki.roman.andoirdmathlab.dto.BackEmfDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
-import com.fiki.roman.andoirdmathlab.repository.Impl.BackEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.BackEmfDAOImpl;
-import com.fiki.roman.andoirdmathlab.services.back.emf.BacEmfFindService;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.BackEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.BackEmfDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.R;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.BackEmfDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.services.back.emf.BacEmfFindService;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;

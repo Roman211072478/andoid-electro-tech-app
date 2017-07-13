@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.ContactDetails;
 import com.fiki.math.lab.mathlab.factories.ContactDetailsFactory;
 import com.fiki.math.lab.mathlab.factories.Impl.ContactDetailFactoryImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.ContactDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.ContactDetailsAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.ContactDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.ContactDetailsAdapter;
 
 import java.util.HashMap;
 

@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.RopeBreakMethod;
 import com.fiki.math.lab.mathlab.factories.Impl.RopeBreakMethodFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.RopeBreakMethodFactory;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RopeBreakDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.RopeBreakAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RopeBreakDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.RopeBreakAdapter;
 
 import java.util.HashMap;
 

@@ -9,12 +9,306 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.administration.EditRoleActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="com.fiki.roman.andoirdmathlab.activities.administration.EDITROLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.administration.CreateRoleActivity" >
+            <intent-filter>
+                <action android:name="CREATEROLEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.administration.ManageRolesActivity" >
+            <intent-filter>
+                <action android:name="MANAGEROLESACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ExerciseMainMenuActivity" >
+            <intent-filter>
+                <action android:name="EXERCISEMAINMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.StartMenuActivity" >
+            <intent-filter>
+                <action android:name="STARTMENUACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.administration.RegisterActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="REGISTERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ResultVew" >
+            <intent-filter>
+                <action android:name="com.fiki.roman.andoirdmathlab.RESULTVEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AdministratorActivity" >
+            <intent-filter>
+                <action android:name="com.fiki.roman.andoirdmathlab.activities.ADMINISTRATORACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.administration.RegisterResultActivity" >
+            <intent-filter>
+                <action android:name="REGISTERRESULTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.administration.back.emf.BackEmfCreateActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="BACKEMFCREATEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.administration.back.emf.BackEmfCrudMenuAcitivity" >
+            <intent-filter>
+                <action android:name="BACKEMFCRUDMENUACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.administration.back.emf.BackEmfEditActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="BACKEMFEDITACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.administration.TutorialAdminActivity" >
+            <intent-filter>
+                <action android:name="TUTORIALADMINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BackEmfExerciseLayout"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="com.fiki.roman.andoirdmathlab.activities.BACKEMFEXERCISELAYOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.role.RoleCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.role.RoleFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.back.emf.BackEmfCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.back.emf.BacEmfFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.login.details.LoginDetailsFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.login.details.LoginDetailsCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.tutorial.TutorialCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.tutorial.TutorialFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.users.UserCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.users.UserFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.contact.details.ContactDetailsCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.contact.details.ContactDetailsFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.equation.EquationCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.equation.EquationFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.machine.emf.MachineEmfCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.machine.emf.MachineEmfFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.prony.breakmethod.PronyBreakCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.prony.breakmethod.PronyBreakFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.rope.breakmethod.RopeBreakCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.rope.breakmethod.RopeBreakFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.staff.StaffCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.staff.StaffFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.swineburne.SwineburneCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.swineburne.SwineburneFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.torque.TorqueCUDService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.torque.TorqueFindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.DefaultCalculatorService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity android:name=".activities.administration.machine.emf.MachineEmfCrud" >
+        </activity>
+        <activity
+            android:name=".activities.administration.machine.emf.MachineEmfCreateActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.emf.MachineEmfActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.administration.machine.emf.MachineEmfEditActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity android:name=".activities.administration.torque.TorqueCreateActivity" >
+        </activity>
+        <activity android:name=".activities.administration.torque.TorqueCrudActivity" >
+        </activity>
+        <activity
+            android:name=".activities.administration.torque.TorqueEditActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.torque.TorqueActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.administration.rope.brake.RopeBrakeCreateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity android:name=".activities.administration.rope.brake.RopeBrakeCrudActivity" >
+        </activity>
+        <activity
+            android:name=".activities.administration.rope.brake.RopeBrakeCreate2Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.administration.rope.brake.RopeBrakeEditActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.rope.RopeExerciseActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity android:name=".activities.administration.prony.PronyBrakeCRUDActivity" >
+        </activity>
+        <activity
+            android:name=".activities.administration.prony.PronyBrakeCreateActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.administration.prony.PronyBrakeEditActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activities.administration.prony.PronyBrakeCreate2Activity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        </activity>
+        <activity android:name=".activities.pronybreak.PronyBrakeExerciseActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            >
         </activity>
     </application>
 

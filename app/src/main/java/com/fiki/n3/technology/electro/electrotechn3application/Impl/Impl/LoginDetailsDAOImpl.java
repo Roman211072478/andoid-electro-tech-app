@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.fiki.math.lab.mathlab.domain.model.LoginDetails;
-import com.fiki.roman.andoirdmathlab.repository.Impl.LoginDetailsDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.LoginDetailsAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.LoginDetailsDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.LoginDetailsAdapter;
 
 import java.util.HashMap;
 

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fiki.n3.technology.electro.electrotechn3application.activities.activities.administration.rope.brake.RopeBrakeCreateActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create Rope Brake"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EquationType"
+                        android:id="@+id/textView29"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Output"
+                        android:id="@+id/textView30"
+                        android:layout_weight="70" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Efficiency"
+                        android:id="@+id/type_rope_create_layout"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RopeBreak"
+                        android:id="@+id/output_rope_create_layout"
+                        android:layout_weight="50" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Formula:"
+                    android:id="@+id/textView11"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/formula_rope_create_layout"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="#0828c5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Speed:"
+                        android:id="@+id/textView16"
+                        android:layout_marginTop="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radius:"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weight:"
+                        android:id="@+id/textView142"
+                        android:layout_marginTop="25dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tension:"
+                        android:id="@+id/textView123"
+                        android:layout_marginTop="25dp" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Clear"
+                        android:id="@+id/clear_btn_rope_create_layout"
+                        android:layout_marginTop="10dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Back"
+                        android:id="@+id/back_rope_create_layout" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/speed_rope_create_layout"
+                        android:hint=" 100 -> 1000N" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/radius_rope_create_layout"
+                        android:hint=" in meters" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/weight_rope_create_layout"
+                        android:hint="kgs * 9.81" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/tention_rope_create_layout"
+                        android:hint="tension &lt; weight" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="65dp"
+                        android:text="Next"
+                        android:id="@+id/submit_btn_rope_create_layout"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.11" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="# 100 - 1000"
+                        android:id="@+id/speed_error_rope_brake_create"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="italic"
+                        android:textColor="#910000"
+                        android:textSize="16dp"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#Value 0.000 - 1.000meters"
+                        android:id="@+id/radius_error_rope_brake_create"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16dp"
+                        android:textStyle="italic"
+                        android:textColor="#910000"
+                        android:visibility="invisible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textColor="#910000"
+                        android:id="@+id/weight_error_rope_brake_create"
+                        android:textSize="16dp"
+                        android:layout_marginTop="5dp"
+                        android:text="# Weight must be more than tension, and &lt;=400"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -5,10 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.ResultReceiver;
 
-import com.fiki.roman.andoirdmathlab.dto.ContextDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.dto.RoleDTO;
-import com.fiki.roman.andoirdmathlab.factories.chain.factories.role.RoleCUDChainFactory;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ContextDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.RoleDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.factories.chain.factories.role.RoleCUDChainFactory;
 
 /**
  * Created by Roman on 2016/05/02.

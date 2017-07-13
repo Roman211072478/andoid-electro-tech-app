@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.SwinburneMethod;
 import com.fiki.math.lab.mathlab.factories.Impl.SwineburneMethodFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.SwinburneMethodFactory;
-import com.fiki.roman.andoirdmathlab.repository.Impl.SwineburneDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.SwineburneAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.SwineburneDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.SwineburneAdapter;
 
 import java.util.HashMap;
 

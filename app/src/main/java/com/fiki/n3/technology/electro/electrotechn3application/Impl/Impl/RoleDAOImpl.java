@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.Role;
 import com.fiki.math.lab.mathlab.factories.Impl.RoleFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.RoleFactory;
-import com.fiki.roman.andoirdmathlab.repository.Impl.RoleDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.RoleAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.RoleDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.RoleAdapter;
 
 import java.util.HashMap;
 

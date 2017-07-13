@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main menu"
+        android:id="@+id/textView28"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView8" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Back Emf"
+                android:id="@+id/backemf_btn_mainMenu"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffff"
+                android:background="#066ff8" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Machine Emf"
+                android:id="@+id/machine_btn_mainMenu"
+                android:textColor="#ffffff"
+                android:background="#066ff8"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#066ff8"
+                android:text="Prony break efficiency"
+                android:textColor="#ffffff"
+                android:id="@+id/prony_btn_mainMenu"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#066ff8"
+                android:text="Rope Break Efficiency"
+                android:textColor="#ffffff"
+                android:id="@+id/rope_btn_mainMenu"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#066ff8"
+                android:text="Swine burne Efficiency"
+                android:textColor="#ffffff"
+                android:id="@+id/swineburne_btn_mainMenu"
+                android:layout_marginTop="10dp"
+                android:enabled="false" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:textColor="#ffffff"
+                android:background="#066ff8"
+                android:text="Torque"
+                android:id="@+id/torque_btn_mainMenu"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

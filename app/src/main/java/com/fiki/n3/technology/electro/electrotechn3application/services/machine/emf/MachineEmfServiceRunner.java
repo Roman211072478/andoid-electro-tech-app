@@ -3,8 +3,8 @@ package com.fiki.n3.technology.electro.electrotechn3application.services.machine
 import android.content.Context;
 import android.content.Intent;
 
-import com.fiki.roman.andoirdmathlab.dto.MachineEmfDTO;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.MachineEmfDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
 
 /**
  * Created by Roman on 2016/05/26.
@@ -16,7 +16,7 @@ public class MachineEmfServiceRunner {
         this.ctx = ctx;
     }
 
-    private void findService(MachineEmfDTO dto, ServiceResultReceiver receiver,String request)
+    private void findService(MachineEmfDTO dto, ServiceResultReceiver receiver, String request)
     {
         Intent service = new Intent(ctx, MachineEmfFindService.class);
 

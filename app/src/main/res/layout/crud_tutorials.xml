@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Back Emf"
+                android:id="@+id/back_emf_admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Machine Emf"
+                android:id="@+id/machine_emf__admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Prony break"
+                android:id="@+id/prony__admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Rope break"
+                android:id="@+id/rope__admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Swineburne"
+                android:id="@+id/swine__admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:enabled="false" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="Torque"
+                android:id="@+id/torque_admin_crud"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:enabled="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

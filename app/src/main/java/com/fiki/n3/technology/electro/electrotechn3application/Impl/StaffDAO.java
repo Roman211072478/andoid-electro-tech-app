@@ -1,6 +1,7 @@
 package com.fiki.n3.technology.electro.electrotechn3application.Impl;
 
-import com.fiki.roman.andoirdmathlab.dto.StaffDTO;
+
+import com.fiki.n3.technology.electro.electrotechn3application.dto.StaffDTO;
 
 import java.util.HashMap;
 

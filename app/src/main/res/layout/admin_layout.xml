@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"
+            android:background="#000000">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="manage Tutorials"
+                    android:id="@+id/admin_tutorial_btn"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="manage staff"
+                    android:id="@+id/admin_staff_btn"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:enabled="false" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="manage roles"
+                    android:id="@+id/admin_role_btn"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="Reset Databases"
+                    android:id="@+id/RestReposAdmin"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="play exercise"
+                    android:id="@+id/admin_play_btn"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:text="exit"
+                    android:id="@+id/admin_exit_btn"
+                    android:background="@drawable/arrows"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import com.fiki.math.lab.mathlab.domain.model.Torque;
 import com.fiki.math.lab.mathlab.factories.Impl.TorqueFactoryImpl;
 import com.fiki.math.lab.mathlab.factories.TorqueFactory;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TorqueDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.TorqueAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TorqueDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.TorqueAdapter;
 
 import java.util.HashMap;
 

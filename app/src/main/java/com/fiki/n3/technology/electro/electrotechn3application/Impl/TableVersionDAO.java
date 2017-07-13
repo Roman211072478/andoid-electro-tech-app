@@ -1,6 +1,7 @@
 package com.fiki.n3.technology.electro.electrotechn3application.Impl;
 
-import com.fiki.roman.andoirdmathlab.dto.TableVersionDTO;
+
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TableVersionDTO;
 
 import java.util.HashMap;
 

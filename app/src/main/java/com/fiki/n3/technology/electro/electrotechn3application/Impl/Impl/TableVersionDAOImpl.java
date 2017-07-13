@@ -5,9 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.fiki.roman.andoirdmathlab.dto.TableVersionDTO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TableVersionDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.DatabaseDetails.TableVersionAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TableVersionDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.DatabaseDetails.TableVersionAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TableVersionDTO;
 
 import java.util.HashMap;
 

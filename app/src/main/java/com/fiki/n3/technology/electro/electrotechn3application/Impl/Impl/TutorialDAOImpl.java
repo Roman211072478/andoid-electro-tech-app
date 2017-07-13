@@ -5,9 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.fiki.roman.andoirdmathlab.dto.TutorialDTO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.TutorialDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.TutorialAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.TutorialDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.TutorialAdapter;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TutorialDTO;
 
 import java.util.HashMap;
 

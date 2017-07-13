@@ -3,8 +3,9 @@ package com.fiki.n3.technology.electro.electrotechn3application.services.tutoria
 import android.content.Context;
 import android.content.Intent;
 
-import com.fiki.roman.andoirdmathlab.dto.TutorialDTO;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TutorialDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
+
 
 /**
  * Created by Roman on 2016/05/19.
@@ -17,7 +18,7 @@ public class TutorialServiceRunner {
         this.ctx = ctx;
     }
 
-    private void findService(TutorialDTO dto, ServiceResultReceiver receiver,String request)
+    private void findService(TutorialDTO dto, ServiceResultReceiver receiver, String request)
     {
         Intent service = new Intent(ctx, TutorialFindService.class);
 

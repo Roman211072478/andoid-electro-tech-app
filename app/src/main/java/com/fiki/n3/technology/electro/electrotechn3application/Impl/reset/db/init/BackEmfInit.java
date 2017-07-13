@@ -5,10 +5,10 @@ import android.content.Context;
 import com.fiki.math.lab.mathlab.domain.model.BackEmf;
 import com.fiki.math.lab.mathlab.factories.BackEmfFactory;
 import com.fiki.math.lab.mathlab.factories.Impl.BackEmfFactoryImpl;
-import com.fiki.roman.andoirdmathlab.dto.TableVersionDTO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.BackEmfDAO;
-import com.fiki.roman.andoirdmathlab.repository.Impl.Impl.BackEmfDAOImpl;
-import com.fiki.roman.andoirdmathlab.repository.Impl.dbAdapters.DatabaseDetails.TableVersionRunner;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.BackEmfDAO;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.Impl.BackEmfDAOImpl;
+import com.fiki.n3.technology.electro.electrotechn3application.Impl.dbAdapters.DatabaseDetails.TableVersionRunner;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.TableVersionDTO;
 
 import java.util.HashMap;
 

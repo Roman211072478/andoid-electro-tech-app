@@ -3,8 +3,8 @@ package com.fiki.n3.technology.electro.electrotechn3application.services.rope.br
 import android.content.Context;
 import android.content.Intent;
 
-import com.fiki.roman.andoirdmathlab.dto.RopeBreakDTO;
-import com.fiki.roman.andoirdmathlab.receiver.ServiceResultReceiver;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.RopeBreakDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.receiver.ServiceResultReceiver;
 
 /**
  * Created by Roman on 2016/05/26.
@@ -16,7 +16,7 @@ public class RopeBreakServiceRunner {
         this.ctx = ctx;
     }
 
-    private void findService(RopeBreakDTO dto, ServiceResultReceiver receiver,String request)
+    private void findService(RopeBreakDTO dto, ServiceResultReceiver receiver, String request)
     {
         Intent service = new Intent(ctx, RopeBreakFindService.class);
 

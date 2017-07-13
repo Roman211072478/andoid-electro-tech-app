@@ -5,10 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.ResultReceiver;
 
-import com.fiki.roman.andoirdmathlab.dto.ContextDTO;
-import com.fiki.roman.andoirdmathlab.dto.EquationDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.factories.chain.factories.equation.EquationCUDChainFactory;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ContextDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.EquationDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.factories.chain.factories.equation.EquationCUDChainFactory;
 
 /**
  * Created by Roman on 2016/05/02.
@@ -17,7 +17,7 @@ import com.fiki.roman.andoirdmathlab.factories.chain.factories.equation.Equation
  *
  * My services are used to access the database.
  * A connection is opened to the database when we accessing it, and close when request is done.
- * This limits database interactions makes the application makes one connection to the database
+ * This limits database interactions allowing the application to make one connection to the database
  * at a time.
  * Having a service open a connection twice could result in an error or a delay in application
  * performance. For this reason, intent services on DAO’s are suitable in order for all

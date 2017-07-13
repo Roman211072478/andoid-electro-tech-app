@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.ResultReceiver;
 
-import com.fiki.roman.andoirdmathlab.dto.BackEmfDTO;
-import com.fiki.roman.andoirdmathlab.dto.ContextDTO;
-import com.fiki.roman.andoirdmathlab.dto.ResultDTO;
-import com.fiki.roman.andoirdmathlab.factories.chain.factories.back.emf.BackEmfFindChainFactory;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.BackEmfDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ContextDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.dto.ResultDTO;
+import com.fiki.n3.technology.electro.electrotechn3application.factories.chain.factories.back.emf.BackEmfFindChainFactory;
 
 import java.util.HashMap;
 
@@ -36,7 +36,7 @@ public class BacEmfFindService extends IntentService {
 
     private ResultDTO resultDTO;
     private Bundle bundle;
-    private  BackEmfDTO backEmfDTO;
+    private BackEmfDTO backEmfDTO;
     private ContextDTO contextDTO ;
 
     private final IBinder localBinder = new ActivateServiceLocalBinder();
