@@ -40,15 +40,10 @@ public class BackEmfExerciseLayout extends Activity implements ServiceResultRece
     private Button bClear,bSubmit,bExist,formulaBtn,calculatorBtn;
     private TextView tvBackEmf,tvIa,tvVolts,tvRa,tvDisplay,tvFormula;
 
-
-
     private List itemArray = new ArrayList<String>();
     private int randomChooser;
     private int currentIndex = -1;
     private UserDTO userDTO;
-
-
-
 
     private List objectList = new ArrayList<>();
 

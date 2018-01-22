@@ -36,7 +36,10 @@ import java.util.Set;
  */
 public class BackEmfCreateActivity extends Activity implements ServiceResultReceiver.Receiver {
 
+    //just to check if the numbers makes sense
     private BackEmfCalculator backEmfCalculator = new BackEmfCalculator();
+
+
     private DialogHandler dialogHandler = new DialogHandler(BackEmfCreateActivity.this);
 
     private ServiceResultReceiver receiver;
@@ -378,6 +381,8 @@ public class BackEmfCreateActivity extends Activity implements ServiceResultRece
 
     }
 
+
+    //equations code
 
     private void getAllEquation()
     {
